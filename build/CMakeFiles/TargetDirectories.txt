@@ -1,0 +1,9 @@
+D:/pr/OpenTomb/build/CMakeFiles/OpenTomb.dir
+D:/pr/OpenTomb/build/CMakeFiles/ALL_BUILD.dir
+D:/pr/OpenTomb/build/CMakeFiles/ZERO_CHECK.dir
+D:/pr/OpenTomb/build/extern/freetype2/CMakeFiles/freetype2.dir
+D:/pr/OpenTomb/build/extern/freetype2/CMakeFiles/ALL_BUILD.dir
+D:/pr/OpenTomb/build/extern/bullet/CMakeFiles/bullet.dir
+D:/pr/OpenTomb/build/extern/bullet/CMakeFiles/ALL_BUILD.dir
+D:/pr/OpenTomb/build/extern/lua/CMakeFiles/lua5.3.dir
+D:/pr/OpenTomb/build/extern/lua/CMakeFiles/ALL_BUILD.dir
