@@ -11,6 +11,9 @@
 *.bak
 *.cbTemp
 .DS_Store
+.vs
+Debug
+x64
 CMakeLists.txt.user
 .dep.inc
 Makefile

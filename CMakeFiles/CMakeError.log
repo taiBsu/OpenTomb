@@ -1,0 +1,74 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/repos/OpenTomb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_96f72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R)-Build-Engine, Version 16.1.76+g14b0a930a7 fr .NET Framework
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+  Microsoft (R) C/C++-Optimierungscompiler Version 19.21.27702.2 fr x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96f72.dir\Debug\\" /Fd"cmTC_96f72.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\repos\OpenTomb\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+D:\repos\OpenTomb\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): error C1083:  Datei (Include) kann nicht ge”ffnet werden: "pthread.h": No such file or directory [D:\repos\OpenTomb\CMakeFiles\CMakeTmp\cmTC_96f72.vcxproj]
+
+
+Determining if files alext.h exist failed with the following output:
+Change Dir: D:/repos/OpenTomb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9dd68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R)-Build-Engine, Version 16.1.76+g14b0a930a7 fr .NET Framework
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+  Microsoft (R) C/C++-Optimierungscompiler Version 19.21.27702.2 fr x64
+  HAVE_ALC_H.c
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  cl /c /IC:\dev_libs\include /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9dd68.dir\Debug\\" /Fd"cmTC_9dd68.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\repos\OpenTomb\CMakeFiles\CheckIncludeFiles\HAVE_ALC_H.c
+D:\repos\OpenTomb\CMakeFiles\CheckIncludeFiles\HAVE_ALC_H.c(2,10): error C1083:  Datei (Include) kann nicht ge”ffnet werden: "alext.h": No such file or directory [D:\repos\OpenTomb\CMakeFiles\CMakeTmp\cmTC_9dd68.vcxproj]
+
+Source:
+/* */
+#include <alext.h>
+
+
+int main(void){return 0;}
+
+Determining if files efx.h exist failed with the following output:
+Change Dir: D:/repos/OpenTomb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_bc200.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R)-Build-Engine, Version 16.1.76+g14b0a930a7 fr .NET Framework
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+  Microsoft (R) C/C++-Optimierungscompiler Version 19.21.27702.2 fr x64
+  HAVE_EFX_H.c
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  cl /c /IC:\dev_libs\include /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bc200.dir\Debug\\" /Fd"cmTC_bc200.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\repos\OpenTomb\CMakeFiles\CheckIncludeFiles\HAVE_EFX_H.c
+D:\repos\OpenTomb\CMakeFiles\CheckIncludeFiles\HAVE_EFX_H.c(2,10): error C1083:  Datei (Include) kann nicht ge”ffnet werden: "efx.h": No such file or directory [D:\repos\OpenTomb\CMakeFiles\CMakeTmp\cmTC_bc200.vcxproj]
+
+Source:
+/* */
+#include <efx.h>
+
+
+int main(void){return 0;}
+
+Determining if files efx-presets.h exist failed with the following output:
+Change Dir: D:/repos/OpenTomb/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6c37b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m 
+Microsoft (R)-Build-Engine, Version 16.1.76+g14b0a930a7 fr .NET Framework
+Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+
+  Microsoft (R) C/C++-Optimierungscompiler Version 19.21.27702.2 fr x64
+  HAVE_EFX_PRESETS_H.c
+  Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
+  cl /c /IC:\dev_libs\include /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6c37b.dir\Debug\\" /Fd"cmTC_6c37b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\repos\OpenTomb\CMakeFiles\CheckIncludeFiles\HAVE_EFX_PRESETS_H.c
+D:\repos\OpenTomb\CMakeFiles\CheckIncludeFiles\HAVE_EFX_PRESETS_H.c(2,10): error C1083:  Datei (Include) kann nicht ge”ffnet werden: "efx-presets.h": No such file or directory [D:\repos\OpenTomb\CMakeFiles\CMakeTmp\cmTC_6c37b.vcxproj]
+
+Source:
+/* */
+#include <efx-presets.h>
+
+
+int main(void){return 0;}
+

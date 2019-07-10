@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btDbvt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btCollisionObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btCollisionWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btCollisionWorldImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btCompoundCompoundCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btGhostObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btHashedSimplePairCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btManifoldResult.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionDispatch\btUnionFind.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btBox2dShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btBoxShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btCapsuleShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btCompoundShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConcaveShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConeShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConvex2dShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConvexHullShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConvexShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btCylinderShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btEmptyShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btOptimizedBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btShapeHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btSphereShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btTetrahedronShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btTriangleBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btTriangleCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btTriangleMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\CollisionShapes\btUniformScalingShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\btContactProcessing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\btGImpactBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\btGImpactShape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\btGenericPoolAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\btTriangleShapeEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\gim_box_set.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\gim_contact.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\gim_memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\Gimpact\gim_tri_collision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Character\btKinematicCharacterController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btContactConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btFixedConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btGearConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpring2Constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btNNCGConstraintSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Dynamics\btRigidBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Featherstone\btMultiBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Featherstone\btMultiBodyConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Featherstone\btMultiBodyConstraintSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Featherstone\btMultiBodyDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Featherstone\btMultiBodyJointLimitConstraint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Featherstone\btMultiBodyJointMotor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Featherstone\btMultiBodyPoint2Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\MLCPSolvers\btDantzigLCP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\MLCPSolvers\btLemkeAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\MLCPSolvers\btMLCPSolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Vehicle\btRaycastVehicle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletDynamics\Vehicle\btWheelInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletSoftBody\btDefaultSoftBodySolver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletSoftBody\btSoftBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletSoftBody\btSoftBodyHelpers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletSoftBody\btSoftRigidDynamicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\LinearMath\btAlignedAllocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\LinearMath\btConvexHull.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\LinearMath\btConvexHullComputer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\LinearMath\btGeometryUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\LinearMath\btPolarDecomposition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\LinearMath\btQuickprof.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\LinearMath\btSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\repos\OpenTomb\extern\bullet\LinearMath\btVector3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\repos\OpenTomb\extern\bullet\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{14239490-3AE6-373C-AAD1-51E842368701}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

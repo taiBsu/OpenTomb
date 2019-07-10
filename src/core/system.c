@@ -5,9 +5,9 @@
 #include <SDL2/SDL_video.h>
 #include <SDL2/SDL_audio.h>
 #include <sys/stat.h>
-#include <sys/time.h>
+// #include <sys/time.h>
 #include <time.h>
-#include <dirent.h>
+#include "dirent.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -204,11 +204,11 @@ static int wildcmp(uint8_t *wild, uint8_t *string)
 file_info_p Sys_ListDir(const char *path, const char *wild)
 {
     file_info_p ret = NULL;
-    DIR *dir = opendir(path);
+    struct DIR* dir = opendir(path);
     if(dir)
     {
         struct stat st;
-        struct dirent *d;
+        struct dirent* d;
         file_info_p *ins;
         int base_len = strlen(path);
         char *buff = (char*)malloc(base_len + sizeof(((struct dirent*)0)->d_name) + 1);
