@@ -1,0 +1,175 @@
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/pr/OpenTomb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_16cc7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.21.27702.2 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16cc7.dir\Debug\\" /Fd"cmTC_16cc7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1,10): error C1083:  Cannot open include file: 'pthread.h': No such file or directory [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_16cc7.vcxproj]
+
+
+
+Determining if files alext.h exist failed with the following output:
+Change Dir: D:/pr/OpenTomb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_771ee.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.21.27702.2 for x64
+  HAVE_ALC_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\Program Files (x86)\OpenAL 1.1 SDK\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_771ee.dir\Debug\\" /Fd"cmTC_771ee.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\pr\OpenTomb\build\CMakeFiles\CheckIncludeFiles\HAVE_ALC_H.c
+D:\pr\OpenTomb\build\CMakeFiles\CheckIncludeFiles\HAVE_ALC_H.c(2,10): error C1083:  Cannot open include file: 'alext.h': No such file or directory [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_771ee.vcxproj]
+
+
+Source:
+/* */
+#include <alext.h>
+
+
+int main(void){return 0;}
+
+Determining if files efx.h exist failed with the following output:
+Change Dir: D:/pr/OpenTomb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_d4523.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.21.27702.2 for x64
+  HAVE_EFX_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\Program Files (x86)\OpenAL 1.1 SDK\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4523.dir\Debug\\" /Fd"cmTC_d4523.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\pr\OpenTomb\build\CMakeFiles\CheckIncludeFiles\HAVE_EFX_H.c
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(213,49): error C2146:  syntax error: missing ')' before identifier 'n' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(213,49): error C2061:  syntax error: identifier 'n' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(213,49): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(213,50): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(213,68): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(216,52): error C2146:  syntax error: missing ')' before identifier 'n' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(216,52): error C2061:  syntax error: identifier 'n' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(216,52): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(216,53): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(216,71): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(219,20): error C2143:  syntax error: missing ')' before '__cdecl' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(219,20): error C2143:  syntax error: missing '{' before '__cdecl' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(219,41): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(219,51): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(219,51): error C2165:  'left-side modifier': cannot modify pointers to data [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(219,51): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(219,51): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(219,55): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(222,45): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(222,45): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(222,45): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(222,48): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(222,75): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(223,46): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(223,46): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(223,46): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(223,49): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(223,79): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(226,45): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(226,45): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(226,45): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(226,48): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(226,77): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(227,46): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(227,46): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(227,46): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(227,49): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(227,81): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(230,48): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(230,48): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(230,48): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(230,51): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(230,80): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(231,49): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(231,49): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(231,49): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(231,52): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(231,82): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(234,48): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(234,48): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(234,48): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(234,51): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(234,82): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(235,49): error C2146:  syntax error: missing ')' before identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(235,49): error C2061:  syntax error: identifier 'eid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(235,49): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(235,52): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(235,84): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(243,49): error C2146:  syntax error: missing ')' before identifier 'n' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(243,49): error C2061:  syntax error: identifier 'n' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(243,49): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(243,50): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(243,68): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(246,52): error C2146:  syntax error: missing ')' before identifier 'n' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(246,52): error C2061:  syntax error: identifier 'n' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(246,52): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(246,53): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(246,71): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(249,20): error C2143:  syntax error: missing ')' before '__cdecl' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(249,20): error C2143:  syntax error: missing '{' before '__cdecl' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(249,41): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(249,51): error C2146:  syntax error: missing ')' before identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(249,51): error C2165:  'left-side modifier': cannot modify pointers to data [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(249,51): error C2061:  syntax error: identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(249,51): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(249,55): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(252,45): error C2146:  syntax error: missing ')' before identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(252,45): error C2061:  syntax error: identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(252,45): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(252,48): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(252,76): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(253,46): error C2146:  syntax error: missing ')' before identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(253,46): error C2061:  syntax error: identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(253,46): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(253,49): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(253,79): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(256,45): error C2146:  syntax error: missing ')' before identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(256,45): error C2061:  syntax error: identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(256,45): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(256,48): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(256,77): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(257,46): error C2146:  syntax error: missing ')' before identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(257,46): error C2061:  syntax error: identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(257,46): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(257,49): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(257,81): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(260,48): error C2146:  syntax error: missing ')' before identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(260,48): error C2061:  syntax error: identifier 'fid' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(260,48): error C2059:  syntax error: ';' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(260,51): error C2059:  syntax error: ',' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(260,80): error C2059:  syntax error: ')' [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+C:\Program Files (x86)\OpenAL 1.1 SDK\include\efx.h(260,80): error C1003:  error count exceeds 100; stopping compilation [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_d4523.vcxproj]
+
+
+Source:
+/* */
+#include <efx.h>
+
+
+int main(void){return 0;}
+
+Determining if files efx-presets.h exist failed with the following output:
+Change Dir: D:/pr/OpenTomb/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_06d5f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.21.27702.2 for x64
+  HAVE_EFX_PRESETS_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\Program Files (x86)\OpenAL 1.1 SDK\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_06d5f.dir\Debug\\" /Fd"cmTC_06d5f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue D:\pr\OpenTomb\build\CMakeFiles\CheckIncludeFiles\HAVE_EFX_PRESETS_H.c
+D:\pr\OpenTomb\build\CMakeFiles\CheckIncludeFiles\HAVE_EFX_PRESETS_H.c(2,10): error C1083:  Cannot open include file: 'efx-presets.h': No such file or directory [D:\pr\OpenTomb\build\CMakeFiles\CMakeTmp\cmTC_06d5f.vcxproj]
+
+
+Source:
+/* */
+#include <efx-presets.h>
+
+
+int main(void){return 0;}
+
